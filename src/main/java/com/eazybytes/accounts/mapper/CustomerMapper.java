@@ -1,4 +1,4 @@
-package com.eazybytes.accounts.mapper;
+package com.eazybytes.accounts.controller.mapper;
 
 import com.eazybytes.accounts.dto.CustomerDTO;
 import com.eazybytes.accounts.entity.Customer;

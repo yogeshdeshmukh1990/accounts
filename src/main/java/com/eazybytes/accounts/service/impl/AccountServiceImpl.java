@@ -1,4 +1,4 @@
-package com.eazybytes.accounts.service.impl;
+package com.eazybytes.accounts.controller.service.impl;
 
 import com.eazybytes.accounts.dto.CustomerDTO;
 import com.eazybytes.accounts.entity.Account;
@@ -7,7 +7,7 @@ import com.eazybytes.accounts.exception.CustomerAlreadyExistException;
 import com.eazybytes.accounts.mapper.CustomerMapper;
 import com.eazybytes.accounts.repository.AccountRepository;
 import com.eazybytes.accounts.repository.CustomerRepository;
-import com.eazybytes.accounts.service.IAccountService;
+import com.eazybytes.accounts.controller.service.IAccountService;
 import com.eazybytes.accounts.utils.AccountsConstants;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;

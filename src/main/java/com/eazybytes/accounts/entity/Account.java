@@ -1,4 +1,4 @@
-package com.eazybytes.accounts.entity;
+package com.eazybytes.accounts.controller.entity;
 
 import jakarta.persistence.*;
 import lombok.*;

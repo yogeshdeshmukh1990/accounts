@@ -1,4 +1,4 @@
-package com.eazybytes.accounts.repository;
+package com.eazybytes.accounts.controller.repository;
 
 import com.eazybytes.accounts.entity.Account;
 import org.springframework.data.jpa.repository.JpaRepository;

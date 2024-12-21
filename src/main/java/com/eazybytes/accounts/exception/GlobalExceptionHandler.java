@@ -1,4 +1,4 @@
-package com.eazybytes.accounts.exception;
+package com.eazybytes.accounts.controller.exception;
 
 import com.eazybytes.accounts.dto.ErrorResponseDTO;
 import org.springframework.http.HttpStatus;
