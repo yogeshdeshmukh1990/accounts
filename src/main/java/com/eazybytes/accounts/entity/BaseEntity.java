@@ -1,4 +1,4 @@
-package com.eazybytes.accounts.controller.entity;
+package com.eazybytes.accounts.entity;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.MappedSuperclass;

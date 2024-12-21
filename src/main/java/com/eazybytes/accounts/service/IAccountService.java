@@ -1,4 +1,4 @@
-package com.eazybytes.accounts.controller.service;
+package com.eazybytes.accounts.service;
 
 import com.eazybytes.accounts.dto.CustomerDTO;
 

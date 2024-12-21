@@ -1,4 +1,4 @@
-package com.eazybytes.accounts.controller.utils;
+package com.eazybytes.accounts.utils;
 
 public class AccountsConstants {
 
