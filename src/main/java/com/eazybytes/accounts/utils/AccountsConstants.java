@@ -15,8 +15,8 @@ public class AccountsConstants {
 
     public static String MESSAGE_200 = "Request Processed successfully";
 
-    public static String STATUS_501 = "500";
+    public static String STATUS_500 = "500";
 
 
-    public static String MESSAGE_501 = "An error occurred. Please try again or contact Dev team.";
+    public static String MESSAGE_500 = "An error occurred. Please try again or contact Dev team.";
 }
