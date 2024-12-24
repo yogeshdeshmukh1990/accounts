@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.*;
 @RestController
 @AllArgsConstructor
 @Validated
-@RequestMapping(path="/account")
+@RequestMapping(path="/api")
 public class AccountsController {
 
     private IAccountService iAccountService;
@@ -35,7 +35,8 @@ public class AccountsController {
     }
 
     @GetMapping("/fetch")
-    public ResponseEntity<CustomerDTO> fetchAccountDetails(@RequestParam @Pattern(regexp = "(^$[0-9]{10})") String mobileNumber){
+    public ResponseEntity<CustomerDTO> fetchAccountDetails(@RequestParam @Pattern(regexp="(^$|[0-9]{10})",message = "Mobile number must be 10 digits")
+                                                               String mobileNumber){
         CustomerDTO customerDTO = iAccountService.fetchAccount(mobileNumber);
         return ResponseEntity
                 .status(HttpStatus.OK)
@@ -56,8 +57,10 @@ public class AccountsController {
         }
     }
 
-    @DeleteMapping("/delete")
-    public ResponseEntity<ResponseDTO> deleteAccountDetails(@RequestParam @Pattern(regexp = "(^$[0-9]{10})")  String mobileNumber){
+    @DeleteMapping("/delete")//@Pattern(regexp = "(^$[0-9]{10})")"
+    public ResponseEntity<ResponseDTO> deleteAccountDetails(@RequestParam
+                                                                @Pattern(regexp="(^$|[0-9]{10})",message = "Mobile number must be 10 digits")
+                                                                String mobileNumber){
         boolean isDeleted = iAccountService.deleteAccount(mobileNumber);
         if(isDeleted){
             return ResponseEntity

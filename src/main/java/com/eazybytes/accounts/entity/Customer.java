@@ -3,7 +3,7 @@ package com.eazybytes.accounts.entity;
 import jakarta.persistence.*;
 import lombok.*;
 
-@Entity(name= "customers")
+@Entity(name= "customer")
 @Getter
 @Setter
 @ToString
