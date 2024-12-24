@@ -24,7 +24,7 @@ public class CustomerDTO {
 
     @Schema(
             description="Email of the Customer",
-            example = "yogesh@gamil.com"
+            example = "yogesh@gmail.com"
     )
     @NotEmpty(message = "Email cannot be null or empty")
     @Email(message = "Email addresss should be valid value")
