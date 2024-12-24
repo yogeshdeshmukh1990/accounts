@@ -1,7 +1,7 @@
-package com.eazybytes.accounts.mapper;
+package com.banking.accounts.mapper;
 
-import com.eazybytes.accounts.dto.CustomerDTO;
-import com.eazybytes.accounts.entity.Customer;
+import com.banking.accounts.dto.CustomerDTO;
+import com.banking.accounts.entity.Customer;
 
 public class CustomerMapper {
 

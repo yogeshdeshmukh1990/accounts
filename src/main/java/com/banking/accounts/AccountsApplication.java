@@ -1,4 +1,4 @@
-package com.eazybytes.accounts;
+package com.banking.accounts;
 
 import io.swagger.v3.oas.annotations.ExternalDocumentation;
 import io.swagger.v3.oas.annotations.OpenAPIDefinition;

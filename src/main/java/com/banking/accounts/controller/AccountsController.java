@@ -1,10 +1,10 @@
-package com.eazybytes.accounts.controller;
+package com.banking.accounts.controller;
 
-import com.eazybytes.accounts.dto.CustomerDTO;
-import com.eazybytes.accounts.dto.ErrorResponseDTO;
-import com.eazybytes.accounts.dto.ResponseDTO;
-import com.eazybytes.accounts.service.IAccountService;
-import com.eazybytes.accounts.utils.AccountsConstants;
+import com.banking.accounts.dto.CustomerDTO;
+import com.banking.accounts.dto.ErrorResponseDTO;
+import com.banking.accounts.dto.ResponseDTO;
+import com.banking.accounts.utils.AccountsConstants;
+import com.banking.accounts.service.IAccountService;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.media.Content;
 import io.swagger.v3.oas.annotations.media.Schema;

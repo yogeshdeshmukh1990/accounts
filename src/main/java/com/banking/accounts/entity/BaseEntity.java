@@ -1,4 +1,4 @@
-package com.eazybytes.accounts.entity;
+package com.banking.accounts.entity;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.EntityListeners;
